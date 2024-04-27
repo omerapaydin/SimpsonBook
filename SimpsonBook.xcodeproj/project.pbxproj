@@ -16,6 +16,8 @@
 		FFC64A182B389E2C00CC0D1C /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC64A172B389E2C00CC0D1C /* SimpsonBookTests.swift */; };
 		FFC64A222B389E2C00CC0D1C /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC64A212B389E2C00CC0D1C /* SimpsonBookUITests.swift */; };
 		FFC64A242B389E2C00CC0D1C /* SimpsonBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC64A232B389E2C00CC0D1C /* SimpsonBookUITestsLaunchTests.swift */; };
+		FFC64A312B38A0FF00CC0D1C /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC64A302B38A0FF00CC0D1C /* detailsVC.swift */; };
+		FFC64A332B38A8DD00CC0D1C /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC64A322B38A8DD00CC0D1C /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FFC64A1D2B389E2C00CC0D1C /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC64A212B389E2C00CC0D1C /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		FFC64A232B389E2C00CC0D1C /* SimpsonBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFC64A302B38A0FF00CC0D1C /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		FFC64A322B38A8DD00CC0D1C /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				FFC64A002B389E2B00CC0D1C /* AppDelegate.swift */,
 				FFC64A022B389E2B00CC0D1C /* SceneDelegate.swift */,
 				FFC64A042B389E2B00CC0D1C /* ViewController.swift */,
+				FFC64A302B38A0FF00CC0D1C /* detailsVC.swift */,
 				FFC64A062B389E2B00CC0D1C /* Main.storyboard */,
 				FFC64A092B389E2C00CC0D1C /* Assets.xcassets */,
 				FFC64A0B2B389E2C00CC0D1C /* LaunchScreen.storyboard */,
 				FFC64A0E2B389E2C00CC0D1C /* Info.plist */,
+				FFC64A322B38A8DD00CC0D1C /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC64A052B389E2B00CC0D1C /* ViewController.swift in Sources */,
+				FFC64A312B38A0FF00CC0D1C /* detailsVC.swift in Sources */,
 				FFC64A012B389E2B00CC0D1C /* AppDelegate.swift in Sources */,
 				FFC64A032B389E2B00CC0D1C /* SceneDelegate.swift in Sources */,
+				FFC64A332B38A8DD00CC0D1C /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
